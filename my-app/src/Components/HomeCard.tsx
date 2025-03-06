@@ -22,7 +22,7 @@ export default function HomeCard() {
           />
           <div className="flex flex-col justify-center pt-8 items-center">
             <img
-              src="/images/pfp.jpg"
+              src="/images/me.jpg"
               alt="julie profile image"
               className="md:w-1/4 w-1/2 rounded-full border-pink-400 border-solid border-2 mb-4"
             />
