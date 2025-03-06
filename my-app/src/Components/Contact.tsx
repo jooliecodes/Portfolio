@@ -31,7 +31,7 @@ export default function Contact() {
           <div className="w-full flex justify-center">
             <div className="p-4 flex gap-2">
               <a
-                href="https://www.linkedin.com/in/julieluangpraxay/"
+                href="https://www.linkedin.com/in/jooliecodes/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +46,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://www.github.com/julieluangpraxay/"
+                href="https://www.github.com/jooliecodes/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

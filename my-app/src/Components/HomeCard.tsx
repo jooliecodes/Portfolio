@@ -27,7 +27,7 @@ export default function HomeCard() {
               className="md:w-1/4 w-1/2 rounded-full border-pink-400 border-solid border-2 mb-4"
             />
             <div className="text-center p-2">
-              <h1 className="text-3xl p-2 font-bold">Julie Luangpraxay</h1>
+              <h1 className="text-3xl p-2 font-bold">Julie L</h1>
               <h3 className="text-xl p-4">Front-End Developer</h3>
               <div className="bg-white rounded">
                 <h4 className="text-left p-4">
@@ -43,7 +43,7 @@ export default function HomeCard() {
           <div className="w-full flex justify-center">
             <div className="p-4 flex gap-2">
               <a
-                href="https://www.linkedin.com/in/julieluangpraxay/"
+                href="https://www.linkedin.com/in/jooliecodes/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,7 +58,7 @@ export default function HomeCard() {
               </a>
 
               <a
-                href="https://www.github.com/julieluangpraxay/"
+                href="https://www.github.com/jooliecodes/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
