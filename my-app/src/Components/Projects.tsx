@@ -53,10 +53,10 @@ export default function Projects() {
             </div>
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
               <a
-                href="https://julieluangpraxay.github.io/valorant-collections/"
+                href="https://jooliecodes.github.io/valorant-collections/"
                 className="hover:bg-sky-200 text-xs"
               >
-                https://julieluangpraxay.github.io/valorant-collections/
+                https://jooliecodes.github.io/valorant-collections/
                 <img
                   className="w-full"
                   src="/images/valorantcollections.png"
@@ -87,10 +87,10 @@ export default function Projects() {
             </div>
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
               <a
-                href="https://julie.codes/"
+                href="https://joolie.codes/"
                 className="hover:bg-sky-200 text-xs"
               >
-                https://julie.codes/
+                https://joolie.codes/
                 <img
                   className="w-full"
                   src="/images/Gif.gif"
