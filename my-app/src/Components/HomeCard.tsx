@@ -5,7 +5,7 @@ export default function HomeCard() {
     <>
       <div className="sm:w-11/12 md:w-3/4 lg:w-1/2 bg-pink-50 mt-24 border border-4 border-pink-400 flex justify-center flex-wrap p-4 w-11/12 rounded m-auto mb-10">
         <div className="sm:w-full border border-4 bg-white border-pink-300 flex justify-between flex-wrap w-full rounded m-auto p-1">
-          <h6 className="small-text">https://www.julie.codes</h6>
+          <h6 className="small-text">https://www.joolie.codes</h6>
           <div className="relative w-3 h-6 mx-2">
             <div className="w-2 h-0.5 bg-white border border-black right-5 absolute p-2 top-0.5 m-0.5"></div>
 

@@ -5,7 +5,7 @@ export default function AboutMePage() {
     <>
       <div className="sm:w-3/4 bg-pink-50 mt-20 border border-4 border-pink-400 flex justify-center flex-wrap w-10/12 pt-4 rounded m-auto">
         <div className="sm:w-full border border-4 bg-white border-pink-300 flex justify-between flex-wrap w-10/12 rounded m-auto p-1">
-          <h6 className="small-text">https://www.julie.codes</h6>
+          <h6 className="small-text">https://www.joolie.codes</h6>
           <div className="relative w-3 h-6 mx-2">
             <div className="w-2 h-0.5 bg-white border border-black right-5 absolute p-2 top-0.5 m-0.5"></div>
             <div className="absolute inset-0 bg-black w-0.5 h-11/12 mx-auto rotate-45"></div>
