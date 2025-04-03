@@ -25,7 +25,7 @@ export default function Contact() {
             />
             <div className="text-center p-2">
               <h1 className="text-3xl p-2 font-bold">CONTACT</h1>
-              <h3 className="text-xl p-4">Email: julieluangpraxay@gmail.com</h3>
+              <h3 className="text-xl p-4">Email: jooliecodes@gmail.com</h3>
             </div>
           </div>
           <div className="w-full flex justify-center">
