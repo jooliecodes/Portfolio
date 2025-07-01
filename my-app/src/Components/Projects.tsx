@@ -36,7 +36,7 @@ export default function Projects() {
               mediaType="image"
               imageAlt="Flightsat aerospace dashboard screenshot"
               projectUrl="https://flightsat.com/"
-              technologies={["TypeScript", "React", "TailwindCSS", "Azure Gov", "Node", "Express", "Stripe", "Salesforce API", "Quickbooks API", "Framer Motion"]}
+              technologies={["TypeScript", "React", "Material UI", "Azure Gov", "Node", "Express", "Stripe", "Salesforce API", "Quickbooks API", "Framer Motion"]}
             />
 
 
