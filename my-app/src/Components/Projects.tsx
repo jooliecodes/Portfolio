@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import "../App.css";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
@@ -17,107 +18,58 @@ export default function Projects() {
         <div className="sm:w-full border border-4 border-pink-300 flex justify-center flex-wrap p-2 w-11/12 rounded m-auto">
           <Nav />
           <div className="w-full flex gap-5 flex-wrap justify-center sm:p-8 p-2 lg:p-2 mb-20">
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
-              <a
-                href="http://darling-doll-cosmetics-dev.us-west-1.elasticbeanstalk.com/"
-                className="hover:bg-sky-200 text-xs"
-              >
-                http://darling-doll-cosmetics-dev.us-west-1.elasticbeanstalk.com/
-                <img
-                  className="w-full"
-                  src="/images/darlingdollwebsite.png"
-                  alt=""
-                />
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
-                    Darling Doll Cosmetics Eccomerce Website
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    A full stack application for my small business. I used
-                    React, TypeScript, PostgreSQL, AWS Beanstalk, Node, and
-                    Express.
-                  </p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #TypeScript
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #React
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #TailWindCSS
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
-              <a
-                href="https://jooliecodes.github.io/valorant-collections/"
-                className="hover:bg-sky-200 text-xs"
-              >
-                https://jooliecodes.github.io/valorant-collections/
-                <img
-                  className="w-full"
-                  src="/images/valorantcollections.png"
-                  alt="valorant collections website image"
-                />
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
-                    VALORANT Collections AJAX Project
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    A website showcasing all the VALORANT Skins using the
-                    unofficial VALORANT API. I used vanilla JavaScript, HTML,
-                    and CSS.
-                  </p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #JavaScript
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #HTML
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #CSS
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-pink-200 mt-10">
-              <a
-                href="https://joolie.codes/"
-                className="hover:bg-sky-200 text-xs"
-              >
-                https://joolie.codes/
-                <img
-                  className="w-full"
-                  src="/images/Gif.gif"
-                  alt="julie's animated software engineer gif"
-                />
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
-                    Portfolio Website
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    My portfolio website showcasing my experience, skills, and
-                    projects. Created with React, TypeScript, and Tailwind CSS.
-                  </p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #TypeScript
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #React
-                  </span>
-                  <span className="inline-block bg-pink-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #TailWindCSS
-                  </span>
-                </div>
-              </a>
-            </div>
+            {/* techmage */}
+            <ProjectCard
+              title="TechMage Robotics Simulator"
+              description="A real-time 3D robotics simulator built with Three.js, designed to visualize and test robotic motion sequences in a web browser. I created and animated robot models in Blender, integrated them into an interactive scene with Three.js, and developed custom controls to manipulate arms and joints. I also contributed UI components in React (MUI), managed responsive layout, debugged physics issues, and supported Azure deployment pipelines and QA."
+              iframeSrc="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7343301488011636736?compact=1"
+              projectUrl="https://techmage.us/"
+              mediaType="iframe"
+              technologies={["Three.js", "React", "TypeScript", "Blender", "MUI", "Azure Gov", "Python"]} 
+              />
+
+            {/* flightsat */}
+            <ProjectCard
+              title="Flightsat"
+              description="A secure aerospace dashboard portal built for Baxter Aerospace. The application is similar to Starlink. I led frontend development using React and TypeScript, with deployment on Azure Government Cloud and full UI/UX implementation. "
+              imageUrl="/images/portfoliofsimg.png"
+              mediaType="image"
+              imageAlt="Flightsat aerospace dashboard screenshot"
+              projectUrl="https://flightsat.com/"
+              technologies={["TypeScript", "React", "TailwindCSS", "Azure Gov", "Node", "Express", "Stripe", "Salesforce API", "Quickbooks API", "Framer Motion"]}
+            />
+
+
+            {/* darling doll */}
+            <ProjectCard
+              title="Darling Doll Cosmetics Eccomerce Website"
+              description=" A full stack application for my small business. I used React, TypeScript, PostgreSQL, AWS Beanstalk, Node, and Express. The site is currently shutdown to save on hosting costs, but you can view the code on GitHub."
+              imageUrl="/images/darlingdollwebsite.png"
+              imageAlt="darling doll cosmetics website image"
+              projectUrl="https://joolie.codes/"
+              technologies={["TypeScript", "React", "TailWindCSS", "PostgreSQL", "AWS", "Node", "Express"]}
+              mediaType="image"
+            />
+            {/* project card for valorant project */}
+            <ProjectCard
+              title="VALORANT Collections AJAX Project"
+              description="A website showcasing all the VALORANT Skins using the unofficial VALORANT API. I used vanilla JavaScript, HTML, and CSS."
+              imageUrl="/images/valorantcollections.png"
+              imageAlt="valorant collections website image"
+              projectUrl="https://jooliecodes.github.io/valorant-collections/"
+              technologies={["JavaScript", "HTML", "CSS", "AJAX", "API", "Valorant API"]}
+              mediaType="image"
+            />
+            {/* portfolio project */}
+            <ProjectCard
+              title="Portfolio Website"
+              description="My portfolio website showcasing my experience, skills, and projects. Created with React, TypeScript, and Tailwind CSS."
+              imageUrl="/images/Gif.gif"
+              imageAlt="julie's animated software engineer gif"
+              projectUrl="https://joolie.codes/"
+              technologies={["TypeScript", "React", "TailWindCSS"]}
+              mediaType="image"
+            />
           </div>
         </div>
       </div>
