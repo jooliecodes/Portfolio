@@ -1,4 +1,3 @@
-// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -25,7 +24,7 @@ export default function Experience() {
           <section className="bg-pink-50 dark:bg-gray-900 border-b border-solid border-pink-200">
             <div className="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="font-light text-gray-500 dark:text-gray-400">
-                <h3>Client Solutions Engineer / Remote</h3>
+                <h3>Frontend Developer / Remote</h3>
 
                 <a
                   href="
@@ -36,26 +35,77 @@ export default function Experience() {
                 </a>
 
                 <h3>Feb 2024 - Present </h3>
-                <ul>
+                <ul className="space-y-3 text-gray-700">
+                  {/* Each li represents one bullet point from your original text */}
                   <li>
-                    Conducted engaging product demos online, effectively
-                    communicating features to boost client acquisition.
+                    Directed frontend development for a real-time aerospace dashboard used by Baxter Aerospace,
+                    focusing on user experience, security, and visual clarity
                   </li>
+
                   <li>
-                    Assist UI updates and fixes using TypeScript, React and
-                    Material-UI, enhancing website functionality and design.
+                    Built the entire UI in React, managing component architecture, styling, and dynamic data flows;
+                    delivered regular demos directly to stakeholders
                   </li>
+
                   <li>
-                    Trained AI chatbots with OpenAI, improving response accuracy
-                    and customer service efficiency.
+                    Integrated payment processing via Stripe, then migrated to QuickBooks, supporting backend
+                    API modifications during the transition
                   </li>
+
                   <li>
-                    Updated website content in collaboration with marketing,
-                    aligning with SEO and brand strategy.
+                    Maintained Azure infrastructure, including Front Door, DNS routing, and CI/CD pipelines
+                    to support secure, scalable deployments
                   </li>
+
                   <li>
-                    Performed rigorous testing of code changes and AI
-                    instructions, ensuring optimal performance and quality.
+                    Contributed to QA testing, bug resolution, and cross-functional reviews to ensure each
+                    release met production standards
+                  </li>
+
+                  <li>
+                    Assisted backend with shell deployment scripts, demonstrating cross-functional flexibility
+                    and willingness to learn
+                  </li>
+                </ul>
+                <ul className="space-y-3 text-gray-700">
+                  <li>
+                    Developed an interactive 3D simulation interface using Three.js and custom Blender animations,
+                    enabling real-time control of robotic hardware
+                  </li>
+
+                  <li>
+                    Writing code that follows best practices in writing reliable and maintainable code that
+                    other engineers may use
+                  </li>
+
+                  <li>
+                    Created a 2D UI overlay system anchored to 3D coordinates using screen-space math,
+                    embedding Ace Editor for live code editing
+                  </li>
+
+                  <li>
+                    Built a React-based drag-and-drop uploader for 3D robot models, allowing users to scale,
+                    rotate, and position assets on a live map
+                  </li>
+
+                  <li>
+                    Integrated the Trellis API and contributed to Python backend scripts that processed and
+                    deployed uploaded assets
+                  </li>
+
+                  <li>
+                    Engineered custom reusable React components (dialogs, controls, sidebars) to improve dev
+                    velocity and ensure interface consistency
+                  </li>
+
+                  <li>
+                    Configured realistic scene elements: lighting, terrain, skyboxes, transparency for enhancing
+                    visual fidelity, and immersion
+                  </li>
+
+                  <li>
+                    Took initiative to debug, refactor, and optimize code; self-taught Typescript, Blender,
+                    and Three.js to meet project needs
                   </li>
                 </ul>
               </div>
@@ -229,266 +279,6 @@ export default function Experience() {
               </div>
             </div>
           </section>
-
-          {/* <div className="m-auto">
-            <div className="bg-white border-gray-300 w-96 border rounded-3xl mb-16 mt-12">
-              <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">
-                <div>
-                  <img
-                    src="/images/darlinglogo.png"
-                    className="rounded-full w-10 h-10"
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="col-span-4 text-sm font-semibold">
-                  E-ccomerece Business Owner
-                </div>
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-                    />
-                  </svg>
-                </div>
-              </header>
-              <div>
-                <Slider {...settings}>
-                  {images.map((image, index) => (
-                    <div key={index}>
-                      <img src={image} alt={`Photo ${index + 1}`} />
-                    </div>
-                  ))}
-                </Slider>
-              </div>
-              <div className="flex flex-col p-4 gap-3">
-                <div className="flex flex-row gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-                    />
-                  </svg>
-                </div>
-                <div className="text-sm font-semibold">11,552 Likes</div>
-                <div className="text-sm">
-                  <span className="font-semibold">
-                    E-ccomerce Business Owner
-                  </span>
-                  <ul>
-                    <li>
-                      • Leveraged paid social and organic content marketing
-                      strategies on Shopify, contributing to revenue growth
-                      surpassing $103K+ while growing 70,000+ followers online
-                    </li>
-                    <li>
-                      • Customized existing themes on Shopify, meticulously
-                      integrating brand-specific elements and refining user
-                      experience components
-                    </li>
-                    <li>
-                      • Collaborated closely with freelancers and manufacturers
-                      overseas on product design and branding initiatives to
-                      uphold quality and brand consistency
-                    </li>
-                  </ul>
-                </div>
-                <div className="text-gray-500 text-sm">
-                  View all 877 comments
-                </div>
-                <div className="text-gray-400 text-xs"> Oct 2020 - Present</div>
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center justify-center">
-            <div className="bg-white border-gray-300 w-96 border rounded-3xl">
-              <header className="grid grid-cols-6 items-center p-3 border-b border-b-gray-300">
-                <div>
-                  <img
-                    src="/images/darlinglogo.png"
-                    className="rounded-full w-10 h-10"
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="col-span-4 text-sm font-semibold">
-                  Social Media Specialist
-                </div>
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-                    />
-                  </svg>
-                </div>
-              </header>
-              <div>
-                <Slider {...settings}>
-                  {images2.map((image, index) => (
-                    <div key={index}>
-                      <img src={image} alt={`Photo ${index + 1}`} />
-                    </div>
-                  ))}
-                </Slider>
-              </div>
-              <div className="flex flex-col p-4 gap-3">
-                <div className="flex flex-row gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-                    />
-                  </svg>
-                </div>
-                <div className="text-sm font-semibold">11,552 Likes</div>
-                <div className="text-sm">
-                  <span className="font-semibold">
-                    CulinaryLab Cooking School
-                  </span>
-                  <ul>
-                    <li>
-                      Achieved exceptional growth of 494% on the TikTok account,
-                      expanding the following from 1.9K to 11.6K, and garnered
-                      significant brand exposure through a highly viewed video
-                      with over 1.8 million views
-                    </li>
-                    <li>
-                      Developed content calendars, effectively coordinating the
-                      scheduling and publication of content across multiple
-                      platforms using Hootsuite in a dynamic startup environment
-                    </li>
-                    <li>
-                      Collaborated seamlessly with my manager to execute
-                      projects with precision and exemplified a track record of
-                      consistently meeting project deadlines
-                    </li>
-                  </ul>
-                </div>
-                <div className="text-gray-500 text-sm">
-                  View all 877 comments
-                </div>
-                <div className="text-gray-400 text-xs">
-                  {" "}
-                  Feb 2022 - Apr 2023
-                </div> */}
-          {/* </div>
-            </div> */}
         </div>
       </div>
     </>
